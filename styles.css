@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Lato';
+}
+h2 {
+    font-family: 'Lato';
+}
+body {
+    background-color: #E5EBF7;
+}
+p {
+    font-family: 'Gothic A1';
+}
+#goodteeth {
+    width: 40%;
+    object-fit: contain;
+}
