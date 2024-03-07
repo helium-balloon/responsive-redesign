@@ -12,6 +12,13 @@ h3 {
   padding: 10px;
   margin: 10px;
 }
+h4 {
+  font-family: "Lato";
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 body {
   background-color: #e5ebf7;
 }
@@ -33,14 +40,14 @@ a {
   width: 70%;
 }
 .rotate {
-    transform: rotate(90deg);
-    /* margin-left: 80px; */
+  transform: rotate(90deg);
+  /* margin-left: 80px; */
 }
 .half {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 img {
   width: 30%;
@@ -70,27 +77,27 @@ img {
   flex-direction: row;
 }
 .column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 ul.circle {
-    list-style-type: circle;
-    font-family: "Gothic A1";
-    line-height: 1.5;
+  list-style-type: circle;
+  font-family: "Gothic A1";
+  line-height: 1.5;
 }
 #heading-paragraph {
-    text-align: center;
+  text-align: center;
 }
 .third {
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 }
 #mobile-hifi {
-    align-items: center;
+  align-items: center;
 }
 .hifi-image {
-    width: 90%
+  width: 90%;
 }
 #footer {
-    height: 20px;
+  height: 20px;
 }
