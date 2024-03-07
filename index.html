@@ -17,62 +17,76 @@
   <body>
     <header>
       <h1>Responsive Redesign Case Study: Compassionate Dentistry</h1>
+      <p id="heading-paragraph">
+        What does it mean to redesign a website? I undertook this question by
+        exploring the workflow of redesigning a website through brainstorming,
+        sketching, wireframing, and coding!
+      </p>
     </header>
     <main>
       <div>
         <h2>Usability Problems</h2>
-        <div id="columns">
-          <img
-            id="goodteeth"
-            class="center"
-            src="/assets/original-page.png"
-            alt="Screenshot of goodteeth website"
-          />
+        <div class="row">
           <div>
             <p>
-              I chose this website because it is an important tool for people
-              who are looking for a dentistry or who are looking to find out
-              more information from their current dentistry. However, this site
-              looks outdated which will discourage some users from looking
-              further into this dentistry. In addition, the site doesn’t respond
-              well to page changes and doesn’t have a mobile view which
-              alienates many users from being able to use it. Finally, this site
-              does not take up much space on the page, and has small text, which
-              makes it hard to read and engage with.
+              First, I chose the website that I wanted to design. I chose this
+              dentistry website because it is an important tool for people who
+              are looking for a dentistry or who are looking to find out more
+              information from their current dentistry. Having easy to use,
+              accessible interfaces is vital for websites pertaining to
+              medecine. <br />
+              <br />
+              However, this site looks outdated which will discourage some users
+              from looking further into this dentistry. In addition, the site
+              doesn’t respond well to page size changes and doesn’t have a
+              mobile view which alienates many users from being able to use it.
+              Finally, this site does not utilize the full space of the page and
+              has small text, which makes it hard to read and engage with.
+              <br /><br />See below for the link to the original site:
             </p>
             <a href="https://www.goodteeth.com/">https://www.goodteeth.com/</a>
           </div>
+          <img
+            id="goodteeth"
+            class="center"
+            src="./assets/original-page.png"
+            alt="Screenshot of goodteeth website"
+          />
         </div>
       </div>
       <div>
         <h2>Sketches</h2>
         <p>
           To prepare to redesign this website, I first did an activity called
-          speed sketching where I divided a sheet of paper into 9 squares and
-          over the course of 9 minutes, I created 9 possible redesigns. This
-          process allowed me to brainstorm without worrying about if each design
-          is fleshed-out enough; rather, I was able to play with different
-          formats and ideas and see what I liked for when putting together my
-          final sketch and wireframe.
+          speed sketching where I divided a sheet of paper into 9 squares. Over
+          the course of 9 minutes, I created 9 possible redesigns. This process
+          allowed me to brainstorm without worrying about if each design is
+          fleshed-out enough; rather, I was able to play with different formats
+          and ideas and see what I liked for when putting together my final
+          sketch and wireframe. Using the ideas generated from speed sketching,
+          I created my final sketch which I then based my wireframes off of.
         </p>
         <div id="image-holder">
-          <div>
+          <div class="half">
             <h3>Speed Sketches</h3>
+            <!-- <div> -->
             <img
-              class="sketch"
-              src="/assets/speed-sketching1.png"
+              class="sketch rotate"
+              src="./assets/speed-sketching1.png"
               alt="speed-sketching1"
             />
-            <img
-              class="sketch"
-              src="assets/speed-sketching2.png"
-              alt="speed-sketching2"
-            />
+            <!-- <img
+                class="sketch rotate"
+                src="./assets/speed-sketching2.png"
+                alt="speed-sketching2"
+              /> -->
+            <!-- </div> -->
           </div>
-          <div>
+          <div class="half">
             <h3>Final Sketch</h3>
             <img
-              src="/assets/final-sketch.png"
+              class="sketch"
+              src="./assets/final-sketch.png"
               alt="Final Initial Sketch for Redesign"
             />
           </div>
@@ -81,19 +95,29 @@
       <div>
         <h2>Low-Fidelity Prototyping</h2>
         <p>
-          Next, I created a low-fidelity wireframe, one for desktop, one for
+          Next, I created low-fidelity wireframes: one for desktop, one for
           tablet, and one for mobile. In addition, I annotated each wireframe to
           specify why I made each change or why I kept things the same as the
-          original site.
+          original site. The most notable changes I made were ensuring that the
+          content took up the full width of the page and creating a view
+          specifically for mobile, both of which the original site did not do.
         </p>
         <div id="low-fid-wireframes">
           <img
             class="low-fidelity"
-            src="/assets/desktop-wireframe.png"
+            src="./assets/desktop-wireframe.png"
             alt=""
           />
-          <img class="low-fidelity" src="/assets/tablet-wireframe.png" alt="" />
-          <img class="low-fidelity" src="/assets/mobile-wireframe.png" alt="" />
+          <img
+            class="low-fidelity"
+            src="./assets/tablet-wireframe.png"
+            alt=""
+          />
+          <img
+            class="low-fidelity"
+            src="./assets/mobile-wireframe.png"
+            alt=""
+          />
         </div>
       </div>
       <div>
@@ -101,17 +125,16 @@
         <p>
           After creating low-fidelity wireframes, I began to put together a
           style guide for the website redesign. I knew that I wanted to give the
-          website a similar feel to the original site, so to do this, I took
-          into account the logo colors and website colors while also making new
-          choises for font, icons, and colors. I learned a lot through this
-          process figuring out what works in the final code, especially learning
-          how accessible certain colors are.
+          website a similar feel to the original site. To do this, I took into
+          account the logo colors and website colors while also making new
+          choises for font, icons, and some other colors.
         </p>
         <ul class="circle">
           <li>
-            I used the dark blue from the logo as part of my color palette then
-            used a color palette generator to put together a light shade of blue
-            and a medium shade of blue.
+            I used the green and dark blue from the logo as part of my color
+            palette then added white. I used a color palette generator to put
+            together a light shade of blue and a medium shade of blue to create
+            the full palette.
           </li>
           <li>
             For the fonts, I chose Lato and Gothic A1 for their simplicity and
@@ -119,8 +142,7 @@
           </li>
           <li>
             I used Font Awesome for my icon library, which allowed me to find
-            icons that fit the function of each of the buttons they are used
-            for.
+            icons that fit the function of each of the buttons in this website.
           </li>
           <li>
             Initially, I had chosen a lighter blue for the main blue color of
@@ -130,15 +152,73 @@
             is on it.
           </li>
         </ul>
-        <img class="center" src="/assets/style-guide.png" alt="" />
+        <img class="center" src="./assets/style-guide.png" alt="" />
       </div>
       <div>
         <h2>High-Fidelity Mockup</h2>
-        <img src="/assets/desktop-hifi-nowhite.png" alt="" />
-        <img src="/assets/tablet-hifi-nowhite.png" alt="" />
+        <p>
+          After creating a style guide, I created three high-fidelity mockups
+          based on my wireframes for desktop, tablet, and mobile. When creating
+          the website in HTML and CSS, I used these mockups and the style guide
+          for guidance and reference.
+        </p>
+        <div class="row">
+          <div class="third column">
+            <h3>Desktop High Fidelity Mockup</h3>
+            <img
+              class="hifi-image"
+              src="./assets/desktop-hifi-nowhite.png"
+              alt=""
+            />
+          </div>
+          <div class="third column">
+            <h3>Tablet High Fidelity Mockup</h3>
+            <img
+              class="hifi-image"
+              src="./assets/tablet-hifi-nowhite.png"
+              alt=""
+            />
+          </div>
+          <div class="third column">
+            <h3>Mobile High Fidelity Mockup</h3>
+            <div class="column" id="mobile-hifi">
+              <img src="./assets/Screenshot 2024-03-06 231136.png" alt="" />
+              <img src="./assets/Screenshot 2024-03-06 231145.png" alt="" />
+              <img src="./assets/Screenshot 2024-03-07 020201.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div><h2>HTML/CSS</h2></div>
-      <div><h2>Conclusion</h2></div>
+      <div>
+        <h2>HTML/CSS</h2>
+        <p>
+          Below is linked the responsive redesign for Compassionate Dentistry:
+        </p>
+        <a
+          href="https://helium-balloon.github.io/dentistry-responsive-redesign/"
+          >https://helium-balloon.github.io/dentistry-responsive-redesign/</a
+        >
+      </div>
+      <div>
+        <h2>Conclusion</h2>
+        <p>
+          Throughout this process, I learned the full workflow of creating a
+          redesign for a website, from brainstorming to a final front-end
+          product. This process taught me the importance of and skills for
+          designing with a user in mind, applying design principles, and coding
+          a responsive site. <br /><br />For this site in particular because it
+          relates to healthcare, having a clear website that works on a variety
+          of devices is extremely important to reach as many people as possible.
+          By incorporating features such as contrasting colors, HTML5 semantic
+          elements, and descriptive alt tags for images, my redesign aims to
+          enhance user experience and ensure that the site is accessible to a
+          diverse audience. <br /><br />The skills acquired during this project
+          are vital going forward to allow me to confidently approach any future
+          project and have a comprehensive understanding of how the elements of
+          the design process help to produce effective outcomes.
+        </p>
+      </div>
     </main>
+    <footer><div id="footer"></div></footer>
   </body>
 </html>

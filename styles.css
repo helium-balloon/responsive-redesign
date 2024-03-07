@@ -30,8 +30,17 @@ a {
   object-fit: contain;
 }
 .sketch {
-  transform: rotate(90deg);
-  margin: 20px;
+  width: 70%;
+}
+.rotate {
+    transform: rotate(90deg);
+    /* margin-left: 80px; */
+}
+.half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 img {
   width: 30%;
@@ -56,12 +65,32 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-#columns {
+.row {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
 }
 ul.circle {
     list-style-type: circle;
     font-family: "Gothic A1";
     line-height: 1.5;
+}
+#heading-paragraph {
+    text-align: center;
+}
+.third {
+    align-items: center;
+    text-align: center;
+}
+#mobile-hifi {
+    align-items: center;
+}
+.hifi-image {
+    width: 90%
+}
+#footer {
+    height: 20px;
 }
