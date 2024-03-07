@@ -1,16 +1,37 @@
 h1 {
-    font-family: 'Lato';
+  font-family: "Lato";
 }
 h2 {
-    font-family: 'Lato';
+  font-family: "Lato";
 }
 body {
-    background-color: #E5EBF7;
+  background-color: #e5ebf7;
 }
 p {
-    font-family: 'Gothic A1';
+  font-family: "Gothic A1";
 }
 #goodteeth {
-    width: 40%;
-    object-fit: contain;
+  width: 40%;
+  object-fit: contain;
+}
+.sketch {
+  transform: rotate(90deg);
+  margin: 20px;
+}
+img {
+  width: 30%;
+  object-fit: contain;
+}
+#image-holder {
+  display: flex;
+  flex-direction: row;
+}
+.low-fidelity {
+  width: 60%;
+  margin: 20px;
+}
+#low-fid-wireframes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
